@@ -2,6 +2,11 @@
 const argv = process.argv;
 const fsP = require('fs/promises');
 
+/** readFile
+* Description: Function that reads file of filename passed through      
+*              process environment and prints it in terminal.         
+*/
+
 async function readFile(file) {
   
   try {
